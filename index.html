@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Connections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "nav-color">
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="main-body">
+        <div class="profile-education-container">
+            <div class="box3">
+                <div class="container-profile">
+                    <nav id="nav-bar"></nav>
+                    <div id="main">
+                        <div id="image">
+                            <img src="./user-circle.png" alt="profile image">
+                        </div>
+                        
+                        <h2 id="h2-profile">Jane Doe</h2>
+                        <div class="location">
+                            <img src="./map-marker.png" alt="location icon">
+                            <p>Seattle</p>
+                        </div>
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the Internet!</p>
+                        <div class="setting">
+                            <img src="./gear.png" alt="setting icon">
+                            <p ><a onclick="editProfile()" href="#">edit profile </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "education-box" >
+                <div >
+                    <h3 id="education-header">Education</h3>
+                </div>
+                <div class="education">
+                    <h2 id="h2-education">Coding Dojo - Full Stack Bootcamp</h2>
+                    <h4 id="h4-timeline">Dec 2019 - Mar 2020</h4>
+                    <h5>Triple black belt in Python, MERN, and C#...</h5>
+                </div>
+
+            </div>
+            
+            
+
+        </div>
+        <div class="box2">
+
+            <div class="request-box">
+                <div class="connection-request-box">
+                    <p><button id="connection-button"><span id="total-request">2</span></button>Conncection Requests</p>
+                </div>
+                <div id="todd-image-bar" class="image-bar">
+                    <img src="./todd-s.jpg" alt="">
+                    <h3>Todd E </h3>
+                    <img onclick="removeAccept1(), decreaseRequest(),increaseConnection()"  id="img-accept" src="./accept-circle.png" alt="">
+                    <img onclick="removeClose1(),decreaseRequest()"  id="img-circle" src="./close-circle.png" alt="">
+                </div>
+                <div id="phil-image-bar" class="image-bar">
+                    <img src="./phil-s.jpg" alt="">
+                    <h3>Phil K </h3>
+                    <img onclick="removeAccept2(),decreaseRequest(),increaseConnection()" id="img-accept" src="./accept-circle.png" alt="">
+                    <img onclick="removeClose2(), decreaseRequest()" id="img-circle"   src="./close-circle.png" alt="">
+                </div>
+            </div>
+
+            <div class="your-connection-box">
+                <div class="connection-request-box">
+                    <p><button id="connection-button-500"><span id="connection-number">418</span></button>Your Connections</p>
+                </div>
+                <div class="connection-image-bar">
+                    <img src="./adrien-s.jpg" alt="">
+                    <h3>Adrien D </h3>
+                </div>
+                <div class="connection-image-bar">
+                    <img src="./anne-s.jpg" alt="">
+                    <h3>Anne J </h3>
+                </div>
+                <div class="connection-image-bar">
+                    <img src="./alayne-s.jpg" alt="">
+                    <h3>Alayne T </h3>
+                </div>
+                <div class="connection-image-bar">
+                    <img src="./arry-s.jpg" alt="">
+                    <h3>Arry Y </h3>
+                </div>
+            </div>
+            <p class="view-more-box"><a href="#">View More</a></p>
+
+        </div>
+
+    <script src="./script.js"></script>
+    </div>
+</body>
+</html>

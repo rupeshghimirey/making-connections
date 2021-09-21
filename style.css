@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(10, 10, 10);
+    justify-content:first baseline;
+    width: 1100px;
+    margin: 0 auto;
+    gap: 2em;
+    margin-bottom: 20px;
+}
+.nav-color {
+    background-color: black;
+}
+.nav-links {
+    display: flex;
+    gap: 4em;
+    list-style-type: none;
+    padding: 8px;
+    
+}
+h1 {
+    color: white;
+    
+    font-weight: 300;
+}
+.nav-links a {
+    color: rgb(212, 208, 208);
+    
+}
+.btn {
+    background-color: rgb(6, 205, 240);
+    width: 70px;
+    height: 25px;
+    color: white;
+    border-color: black;
+    box-shadow:1px 3px #1b1b1b;
+    /* breaks at 463 */
+    margin-left: 462px; 
+    
+}
+.nav-links a {
+    text-decoration: none;
+}
+.nav-links .active {
+    color: white;
+}
+.main-body {
+    display: flex;
+    /* border: 3px solid rgb(2, 2, 2); */
+    height: 600px;
+    width:1100px;
+    justify-content: center;
+    margin: 0 auto;
+    gap:2em;
+}
+.profile-education-container {
+    /* border: 3px solid rgb(22, 141, 91); */
+    height:700px;
+    flex:2;
+}
+.box2 {
+    /* border: 3px solid rgb(161, 35, 35); */
+    height:700px;
+    flex:1;
+}
+
+/* jan doe profile css */
+
+#nav-bar {
+    background-color: rgb(14, 148, 153);
+    min-height: 90px;
+    width: 712px;
+}
+.location, .setting {
+    display: flex;
+    gap: 1em;
+}
+.container-profile {
+    height: 300px;
+    background-color:white;
+    
+}
+#main {
+    padding: 20px;
+    border: 3px solid rgb(216, 213, 213);
+}
+#image {
+    display: flex;
+    height: 90px;
+    margin-top: -70px;
+}
+.location {
+    height: 15px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#h2-profile {
+    font-weight: normal;
+    font-size: 35px;
+}
+.setting {
+    height: 15px;
+    display: flex;
+    margin-top: 10px;
+}
+a {
+    color: rgb(14, 148, 153);
+    cursor: pointer;
+}
+.education {
+    padding: 20px;
+    border: 3px solid rgb(216, 213, 213);
+    height: 150px;
+}
+
+#education-header {
+    height:50px;
+    background-color: rgb(56, 55, 55);
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+#h2-education {
+    margin-bottom: 10px;
+}
+#h4-timeline {
+    color:gray;
+    margin-bottom: 10px;
+}
+.connection-request-box {
+    background-color: rgb(56, 55, 55);
+    height:50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    padding: 10px;
+    font-size: 25px;
+    font-weight:400;
+}
+.request-box {
+    border: 3px solid rgb(216, 213, 213);
+
+}
+#connection-button {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 20px;
+
+}
+#connection-button-500 {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+.image-bar {
+    display:flex;
+    height: 70px;
+    padding: 5px;
+    justify-content:space-between;
+    
+}
+.image-bar h3 {
+    align-self: center;
+    font-size: 25px;
+
+}
+.your-connection-box {
+    border: 3px solid rgb(216, 213, 213);
+    margin-top: 20px;
+}
+.connection-image-bar {
+    display:flex;
+    height: 70px;
+    padding: 5px;
+    justify-content:flex-start;
+    gap: 10px;
+}
+.connection-image-bar h3 {
+    align-self: center;
+    font-size: 25px;
+}
+#img-accept {
+    margin-left: 50px;
+}
+.view-more-box {
+    height: 40px;
+    border: 3px solid rgb(216, 213, 213);
+    padding: 10px;
+}
